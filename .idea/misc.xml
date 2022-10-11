@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/drawable/back_menu_5.xml" value="0.1405" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/drawable/back_menu_6.xml" value="0.1405" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_list_member_paid_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_list_money_has_pay_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_list_money_has_payed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_list_spending.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_menu_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_one_type_money_must_pay.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/dialog_show_account_for_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/row_member_paid_to_member.xml" value="0.203125" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/row_person_has_payed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Desktop/AndroidStudioProject/project05_classFundManager/app/src/main/res/layout/row_show_list_spending_to_member.xml" value="0.203125" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_02.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_button_sign_in.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_button_sign_up.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_logo_singin.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_menu_1.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_menu_2.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_menu_3.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_menu_4.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/back_sing_in.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/background_dialog_add_content_of_money_to_be_pay.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/drawable/background_title_dialog_add_content_of_money_to_be_pay.xml" value="0.1345" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/activity_list_money_has_payed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/activity_list_spending.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/activity_main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/activity_one_type_money_must_pay.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/dialog_add_content_of_money_to_be_pay.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/dialog_add_new_person_payed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/dialog_add_new_spending.xml" value="0.203125" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/row_list_money_has_pay.xml" value="0.15234375" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/row_person_has_payed.xml" value="0.203125" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project05_classFundManager/app/src/main/res/layout/row_spending.xml" value="0.203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

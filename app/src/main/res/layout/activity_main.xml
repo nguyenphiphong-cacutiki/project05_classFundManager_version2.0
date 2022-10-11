@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_ground_activity"
+    android:layout_height="match_parent"
+    tools:context=".myActivity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/ActivitySignInLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo1959" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/k63" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etSignInPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ActivitySignInLogo"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="130dp"
+        android:background="#BFBFBF"
+        android:hint="Số điện thoại"
+        android:inputType="text"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:textColor="#090908"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:id="@+id/etSignInPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSignInPhone"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="20dp"
+        android:background="#BFBFBF"
+        android:hint="Mật khẩu"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp" />
+
+    <TextView
+        android:id="@+id/tvButtonSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSignInPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back_button_sign_in"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp"
+        android:text="Đăng nhập"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvButtonSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Bạn chưa có tài khoản?"
+        android:textColor="#2F6697"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/sign_up"
+        android:textColor="#2F6697"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

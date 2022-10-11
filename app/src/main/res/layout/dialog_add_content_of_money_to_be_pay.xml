@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:background="#90949A"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titleDialogAddNewSpending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_title_dialog_add_content_of_money_to_be_pay"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp"
+        android:text="Thêm mới tiền cần đóng"
+        android:textColor="#0A4388"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/etNameDialogAddNewSpending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleDialogAddNewSpending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#BFBFBF"
+        android:ems="10"
+        android:hint="Nội dung"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp" />
+
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/etMoneyDialogAddNewSpending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNameDialogAddNewSpending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#BFBFBF"
+        android:ems="10"
+        android:hint="Số tiền"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp" />
+
+    <TextView
+        android:id="@+id/tvDateDialogAddNewSpending"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMoneyDialogAddNewSpending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#BFBFBF"
+        android:hint="Ngày"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ghi chú"
+        android:id="@+id/etNoteDialogAddNewSpending"
+        android:background="#BFBFBF"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvDateDialogAddNewSpending"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCancelDialogAddNewSpending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNoteDialogAddNewSpending"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/back_button_sign_in"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Hủy"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvOkDialogAddNewSpending"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNoteDialogAddNewSpending"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/back_button_sign_in"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="Xong"
+        android:textSize="25sp" />
+</RelativeLayout>

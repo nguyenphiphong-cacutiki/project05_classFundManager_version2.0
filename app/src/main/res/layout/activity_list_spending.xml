@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_ground_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myActivity.ListSpendingActivity">
+
+    <RelativeLayout
+        android:id="@+id/ActivityListSpendingInLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo1959" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/k63" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitleListSpending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ActivityListSpendingInLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/back_02"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:text="Danh mục tiền chi tiêu"
+        android:textColor="#ff0"
+        android:textSize="25sp" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginHorizontal="15dp"
+        android:id="@+id/tvMoneyCutListSpending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleListSpending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#ff0"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:text="Số tiền còn lại  là 500000"
+        android:textColor="#1A33BC"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvListSpending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvHomeListSpending"
+        android:layout_below="@+id/tvMoneyCutListSpending"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvHomeListSpending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#FFC000"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

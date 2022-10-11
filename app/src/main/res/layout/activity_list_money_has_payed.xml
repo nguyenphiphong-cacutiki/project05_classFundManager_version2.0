@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_ground_activity"
+    android:layout_height="match_parent"
+    tools:context=".myActivity.ListMoneyHasPayedActivity">
+
+    <RelativeLayout
+        android:id="@+id/ActivityListMoneyHasPayedLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo1959" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/k63" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="10"
+        android:id="@+id/lnlListMoneyHasPayActivity"
+        android:layout_below="@+id/ActivityListMoneyHasPayedLogo"
+        >
+        <TextView
+            android:background="@drawable/back_02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="TIỀN CẦN ĐÓNG"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#0624CF"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:layout_gravity="center"
+            />
+        <!--<ImageView
+            android:id="@+id/imgAddListMoneyHasToPayed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/add1"
+            android:layout_marginEnd="10dp"
+            />-->
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rcvListMoneyHasToPayed"
+        android:layout_below="@id/lnlListMoneyHasPayActivity"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_above="@id/imgBackHomeListMoneyHasToPayed"
+        />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imgBackHomeListMoneyHasToPayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/icon_back_to_home" />
+
+</RelativeLayout>

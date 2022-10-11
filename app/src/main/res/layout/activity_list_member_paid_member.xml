@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_ground_activity"
+    android:layout_height="match_parent"
+    tools:context=".memberActivity.ListMemberPaid_MemberActivity">
+
+    <RelativeLayout
+        android:id="@+id/ActivityListMoneyHasPayedMemberLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo1959" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/k63" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitleListMemberPaid_Member"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ActivityListMoneyHasPayedMemberLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back_menu_5"
+        android:backgroundTint="#00FFFF"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:text="Đi chơi 20/11: 200k"
+        android:textColor="#CA0202"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvTitleListMemberPaid_Member"
+        android:id="@+id/rcvListMemberPaid_Member"
+        />
+</RelativeLayout>

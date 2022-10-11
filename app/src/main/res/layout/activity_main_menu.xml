@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_ground_activity"
+    android:layout_height="match_parent"
+    tools:context=".myActivity.MainMenuActivity">
+
+    <RelativeLayout
+        android:id="@+id/ActivityMenuMainLogo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo1959" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/k63" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvMenuAddNewMoneyGive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ActivityMenuMainLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/back_menu_1"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:text="Thêm tiền mới cần đóng"
+        android:textColor="#1435EC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMenuShowListMoneyGive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMenuAddNewMoneyGive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back_menu_2"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:text="Danh mục tiền cần đóng"
+        android:textColor="#1435EC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMenuAddNewSpending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMenuShowListMoneyGive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back_menu_3"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:text="Thêm mới chi tiêu"
+        android:textColor="#1435EC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMenuShowListMoneySpending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMenuAddNewSpending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back_menu_4"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:text="Danh mục tiền chi tiêu"
+        android:textColor="#1435EC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMenuShowAccountForMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMenuShowListMoneySpending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back_menu_6"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:text="Hiển thị tài khoản thành viên"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

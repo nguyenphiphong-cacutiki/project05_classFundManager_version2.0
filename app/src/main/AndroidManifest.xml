@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project05_classfundmanager">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_design"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_design_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project05_classFundManager"
+        tools:targetApi="31">
+        <activity
+            android:name=".memberActivity.ListMemberPaid_MemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".memberActivity.ListMoneyHasPayMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".memberActivity.MenuMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.ListSpendingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.ListMoneyHasPayedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.OneTypeMoneyMustPayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.MainActivity"
+            android:exported="true"
+            android:label="K63KTPM2-8">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
