@@ -10,6 +10,7 @@
   + Đồng Văn Cường
   + Bùi Hoàng Hà
   + Nguyễn Văn Dương
+  
 ** this app about class fund manager.... it's very basic but it's the result of out many efforts.
 ** wish you had a great experience with this project... thank you <333
   
